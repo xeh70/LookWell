@@ -5,7 +5,7 @@ import java.util.Date;
 public class Chapter {
     private Integer chapterId;
 
-    private Integer courseId;
+    private Course course;
 
     private String chapterName;
 
@@ -21,12 +21,12 @@ public class Chapter {
         this.chapterId = chapterId;
     }
 
-    public Integer getCourseId() {
-        return courseId;
+    public Course getCourse() {
+        return course;
     }
 
-    public void setCourseId(Integer courseId) {
-        this.courseId = courseId;
+    public void setCourse(Course course) {
+        this.course = course;
     }
 
     public String getChapterName() {
