@@ -11,7 +11,7 @@ public class Term {
 
     private Date addTime;
 
-    private Date lasTupdate;
+    private Date lastUpdate;
 
     public Integer getTermId() {
         return termId;
@@ -45,11 +45,11 @@ public class Term {
         this.addTime = addTime;
     }
 
-    public Date getLasTupdate() {
-        return lasTupdate;
+    public Date getLastUpdate() {
+        return lastUpdate;
     }
 
-    public void setLasTupdate(Date lasTupdate) {
-        this.lasTupdate = lasTupdate;
+    public void setLastUpdate(Date lastUpdate) {
+        this.lastUpdate = lastUpdate;
     }
 }

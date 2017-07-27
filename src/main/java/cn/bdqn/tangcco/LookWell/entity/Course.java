@@ -5,7 +5,7 @@ import java.util.Date;
 public class Course {
     private Integer courseId;
 
-    private Integer termId;
+    private Term term;
 
     private Date addTime;
 
@@ -21,12 +21,12 @@ public class Course {
         this.courseId = courseId;
     }
 
-    public Integer getTermId() {
-        return termId;
+    public Term getTerm() {
+        return term;
     }
 
-    public void setTermId(Integer termId) {
-        this.termId = termId;
+    public void setTerm(Term term) {
+        this.term = term;
     }
 
     public Date getAddTime() {
